@@ -1,0 +1,10 @@
+<h1>Word Count</h1>
+  <form action='/display'>
+    <div class="form-group">
+      <textarea name="paragraph" class="form-control" type="text" placeholder="Enter your paragraph"></textarea>
+      <input name="word" class="form-control" type="text" placeholder="Find">
+    </div>
+    <button type="submit" class="btn">Go!</button>
+  </form>
+Result: <%= @result1 %><br />
+Result (including word inside word):<%= @result2 %>
